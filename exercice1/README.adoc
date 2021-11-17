@@ -1,0 +1,16 @@
+= Les poissons le re-retour
+
+
+
+Vous aviez lors d'un TP précédent observé l'évolution de la population de la mare grâce au pattern observateur.
+
+Cependant, vous devez avoir aussi eu des problèmes de cohérence de données. Par exemple,
+si on ne fait pas attention, il est possible que dans votre solution, on puisse tuer des poissons déjà morts.
+
+Reprenez le code que vous aviez à l'époque et introduisez le pattern Etat pour gérer proprement la cohérence.
+Vous devrez probablement faire disparaître le pattern Stratégie introduit à l'époque et
+l'intégrer dans votre pattern Etat. Effectivement, quelque part, le pattern Etat peut être vu comme une stratégie plus générale.
+Le comportement de déplacement d'un poisson différera selon l'état dans lequel il se trouve.
+
+
+*Question* : Refactorez votre code pour tenir compte de cette évolution.

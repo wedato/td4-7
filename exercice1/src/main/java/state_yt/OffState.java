@@ -1,7 +1,7 @@
-package state;
+package state_yt;
 
-public class LockedState extends State{
-    public LockedState(Phone phone) {
+public class OffState extends State {
+    public OffState(Phone phone) {
         super(phone);
     }
 
